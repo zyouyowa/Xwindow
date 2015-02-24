@@ -1,9 +1,9 @@
 OS : Mac OS X Yosemite
 
 #How to use
-1,X11を起動(MacならデフォルトでApplicationフォルダに入ってる。)
-2,X11のアプリケーションからxtermを開く。
-3,
+①,X11を起動(MacならデフォルトでApplicationフォルダに入ってる。)
+②,X11のアプリケーションからxtermを開く。
+③,
 「gcc kadai.c -I/opt/X11/include -L/opt/X11/lib -lX11」
 でコンパイル。
 「./a.out」
